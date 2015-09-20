@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">Focus</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_item">Add Reminder</string>
+    <string name="title_activity_main">Reminders</string>
+    <string name="help_feedback">Help &amp; FeedBack</string>
+    <string name="feedback">Send FeedBack</string>
+    <string name="action_search">Search</string>
+    <string name="action_archive">Done</string>
+    <string name="action_save">Save</string>
+    <string name="title_section_locations">Manage Locations</string>
+
+    <string name="todolist">To Do List</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="past">Checked</string>
+    <string name="no_match">No Match</string>
+
+    <string name="action_modify">Modify</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_check">Check</string>
+    <string name="action_select_all">Select All</string>
+    <string name="title_activity_timeline">Timeline</string>
+    <string name="action_refresh">Refresh</string>
+
+    <string name="error">Error!</string>
+
+    <string name="add_widget">Add widget</string>
+    <string name="created">Created</string>
+    <string name="snoozed">Snoozed</string>
+    <string name="reminded">Reminded</string>
+    <string name="snooze">Snooze</string>
+    <string name="reminders_deleted">reminders deleted</string>
+    <string name="reminders_restored">reminders restored</string>
+    <string name="reminder_checked">Reminder Checked</string>
+    <string name="reminder_unchecked">Reminder Unchecked</string>
+    <string name="snooze_until">Snooze until</string>
+    <string name="snooze_at">Snooze at</string>
+    <string name="errore_title">Insert Title</string>
+    <string name="reminder_added">Reminder Added</string>
+    <string name="reminder_modified">Reminder Modified</string>
+    <string name="ask_delete_reminder">Delete this Reminder</string>
+    <string name="reminder_deleted">Reminder Deleted</string>
+    <string name="undo">UNDO</string>
+    <string name="attention">Warning</string>
+    <string name="ask_exit">Are you sure you want to discard changes</string>
+    <string name="congratulations">Congratulations</string>
+    <string name="noitem">There\'re no items to complete</string>
+    <string name="never">Never</string>
+    <string name="time_and_date">Time &amp; Date</string>
+    <string name="place">Place</string>
+    <string name="no_reminders">No Reminders</string>
+    <string name="action_add">Add</string>
+    <string name="loading">Loading...</string>
+    <string name="action_uncheck">Uncheck</string>
+    <string name="reminder_restored">Reminder Restored</string>
+    <string name="suggestion_1" translatable="false">Visitare le Sette Meraviglie del Mondo</string>
+    <string name="suggestion_2" translatable="false">Vedere le Piramidi</string>
+    <string name="suggestion_3" translatable="false">Fare un Murales</string>
+    <string name="suggestion_4" translatable="false">Ballare sotto la Pioggia</string>
+    <string name="suggestion_5" translatable="false">Festeggiare il Capodanno di ogni Fusorario</string>
+    <string name="suggestion_6" translatable="false">Fare il coast to coast USA</string>
+    <string name="suggestion_7" translatable="false">Viaggiare sull\'Orient Express</string>
+    <string name="suggestion_8" translatable="false">Galleggiare nel Mar Morto</string>
+    <string name="suggestion_9" translatable="false">Bere Rum nel peggior bar di Caracas</string>
+    <string name="suggestion_10" translatable="false">Andare in barca a vela</string>
+    <string name="suggestion_11" translatable="false">Cavalcare un Elefante</string>
+    <string name="suggestion_12" translatable="false">Stringere la mano a qualcuno che ha davvero cambiato il mondo</string>
+    <string name="suggestion_13" translatable="false">Provare l\'assenza di gravità</string>
+    <string name="suggestion_14" translatable="false">Cercare il mostro di Loch Ness</string>
+    <string name="suggestion_15" translatable="false">Lanciare una torta in faccia a qualcuno</string>
+    <string name="action_share">Share</string>
+    <string name="title_activity_search" translatable="false">Search</string>
+    <string name="beta_warning">This app is in beta:\nSend feedback or suggestions.</string>
+    <string name="pref_about">About</string>
+    <string name="pref_title_enable_suggestions">Enable suggestions</string>
+    <string name="pref_summary_enable_suggestions">Get suggestions when you have no things to do</string>
+    <string name="pref_header_widget" translatable="false">Widgets</string>
+    <string name="about_app_name">About Focus</string>
+    <string name="title_activity_intro" translatable="false">Intro</string>
+    <string name="subtitle_app" translatable="false">your mind</string>
+    <string name="title_activity_location">Location Manager</string>
+    <string name="no_places">No Places Saved</string>
+    <string name="version">Version</string>
+    <string name="place_name">Name</string>
+    <string name="place_address">Address</string>
+    <string name="home">Home</string>
+    <string name="work">Work</string>
+    <string name="action_pin">Pin this item</string>
+    <string name="name_unset">You</string>
+    <string name="num_items_todo">items to do</string>
+    <string name="item_pinned">Item pinned</string>
+    <string name="item_unpinned">Item unpinned</string>
+    <string name="action_exit_editor">Discard</string>
+    <string name="remind_never">Never</string>
+    <string name="reminderd_never">Don\'t remind me</string>
+    <string name="reminder_sug">Tomorrow</string>
+    <string name="action_home">Home</string>
+    <string name="reminderd_home">Remind me at Home</string>
+    <string name="action_pick_time">Pick Time &amp; Place</string>
+    <string name="action_pick_place">Pick Place</string>
+    <string name="new_reminder">New Reminder</string>
+    <string name="action_choose_device">Choose Device</string>
+    <string name="bluetooth_off">Bluetooth is Off</string>
+    <string name="no_paired_devices">No Paired Devices</string>
+    <string name="wifi_off">WFi is Off</string>
+    <string name="no_wifi_saved">No Wifi Saved</string>
+    <string name="choose_wifi">Choose WiFi connection</string>
+    <string name="title_activity_choose_activated">ChooseActivated</string>
+
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="no_activated_device">No activated device</string>
+    <string name="no_activated_connection">No Connection activated</string>
+    <string name="action_device_toactive">Choose Active Device to show in Add Reminder</string>
+    <string name="action_connection_toactive">Choose Active Connection to show in Add Reminder</string>
+    <string name="active_device">Active Device</string>
+    <string name="active_connection">Active Connection</string>
+    <string name="title_notification_add">Add Reminder Notification</string>
+    <string name="summary_add_notification">Pin notification to add reminder faster</string>
+    <string name="ask_delete_place">Delete this Place?</string>
+    <string name="insert_name">Insert Name</string>
+    <string name="insert_location">Insert Location</string>
+    <string name="error_name">Insert Name</string>
+    <string name="error_address">Insert Address</string>
+    <string name="warning_old_date">Warning: Old date selected</string>
+    <string name="suggestions_enabled">Suggestions enabled</string>
+    <string name="suggestions_disabled">Suggestions Disabled</string>
+    <string name="slide_actions_enabled">Slide actions enabled</string>
+    <string name="slide_actions_disabled">Slide actions disabled</string>
+    <string name="pref_title_reminders_options">Reminder preference</string>
+    <string name="pref_summary_reminders_options">Customize reminder options</string>
+    <string name="pref_title_actions_slide">Actions slide</string>
+    <string name="title_slide2">Organize your world</string>
+    <string name="title_slide3">New Reminders</string>
+    <string name="title_slide4">Good Job!</string>
+    <string name="summary_slide2">Organize every things you have to do with just few tap.</string>
+    <string name="summary_slide3">Date and Time, Place, Device Connection and more...</string>
+    <string name="summary_slide4">Start to use Focus</string>
+    <string name="title_pref_intro">App Intro</string>
+    <string name="intro_seen">App intro just seen</string>
+    <string name="intro_not_seen">App intro not seen</string>
+    <string name="navigation_drawer_open" translatable="false">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close Navigation Drawer</string>
+    <string name="error_undefined">Undefined</string>
+</resources>

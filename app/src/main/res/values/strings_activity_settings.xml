@@ -1,0 +1,20 @@
+<resources>
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_header_general">General</string>
+
+    <string name="shared_preferences" translatable="false">SHARED_PREFERENCES</string>
+
+    <string name="pref_title_widget_upcoming_row">Upcoming Widget Rows</string>
+    <string-array name="pref_number_row_upcoming_widget" translatable="false">
+        <item>One row</item>
+        <item>Tow rows</item>
+        <item>Three rows</item>
+    </string-array>
+    <string-array name="pref_number_row_upcoming_widget_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+
+</resources>

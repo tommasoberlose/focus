@@ -1,0 +1,42 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="enable_suggestions"
+        android:title="@string/pref_title_enable_suggestions"
+        android:summary="@string/pref_summary_enable_suggestions"
+        android:defaultValue="true" />
+
+    <CheckBoxPreference
+        android:key="enable_not_add"
+        android:title="@string/title_notification_add"
+        android:summary="@string/summary_add_notification"
+        android:defaultValue="false" />
+
+    <CheckBoxPreference
+        android:key="enable_slide_item"
+        android:title="@string/pref_title_actions_slide"
+        android:summary="@string/slide_actions_disabled"
+        android:defaultValue="true" />
+
+    <PreferenceScreen
+        android:title="@string/pref_title_reminders_options"
+        android:summary="@string/pref_summary_reminders_options">
+
+        <Preference
+            android:key="bluetooth_choose"
+            android:title="@string/active_device"
+            android:summary="@string/action_device_toactive">
+            <intent android:action=".activities.ChooseActivated.action.BLUETOOTH" />
+
+        </Preference>
+
+        <Preference
+            android:key="wifi_choose"
+            android:title="@string/active_connection"
+            android:summary="@string/action_connection_toactive">
+            <intent android:action=".activities.ChooseActivated.action.WIFI" />
+
+        </Preference>
+    </PreferenceScreen>
+
+</PreferenceScreen>
