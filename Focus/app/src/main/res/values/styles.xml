@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MAIN THEME -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--<item name="android:navigationBarColor">@color/primary_dark</item>-->
+
+        <item name="colorControlActivated">@android:color/white</item>
+        <item name="colorSwitchThumbNormal">@color/back_selected_item</item>
+
+        <item name="windowActionModeOverlay">true</item>
+        <item name="searchViewStyle">@style/MySearchViewStyle</item>
+    </style>
+
+    <!-- MAIN ACTIONBAR -->
+    <style name="style_actionBar" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="textAppearanceLargePopupMenu">@style/popup_iteml</item>
+        <item name="textAppearanceSmallPopupMenu">@style/popup_items</item>
+    </style>
+
+    <!-- POPUP ITEM MAIN ACTIONBAR -->
+    <style name="popup_iteml" parent="@style/TextAppearance.AppCompat.Widget.PopupMenu.Large">
+        <item name="android:color">@color/primary_text</item>
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+
+    <style name="popup_items" parent="@style/TextAppearance.AppCompat.Widget.PopupMenu.Small">
+        <item name="android:color">@color/primary_text</item>
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+
+    <!-- ADD ITEM THEME -->
+    <style name="style_additem" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorControlActivated">@color/accent</item>
+        <item name="colorSwitchThumbNormal">@color/back_selected_item</item>
+    </style>
+
+    <!-- ADD ITEM ACTIONBAR -->
+    <style name="style_actionBar.additem" parent="style_actionBar">
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:actionMenuTextAppearance">@style/save_actionbutton</item>
+    </style>
+    <style name="save_actionbutton" parent="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+        <style name="MySearchViewStyle" parent="Widget.AppCompat.SearchView">
+        </style>
+</resources>
